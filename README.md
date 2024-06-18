@@ -59,16 +59,4 @@ Before you begin, make sure you have the following installed on your system:
 That's it! You have successfully installed and set up the Wanderlust web project on your local machine. If you encounter any issues during the installation process, feel free to reach out for assistance. Happy traveling! 🌍✈️
 
 
-<script>
-  let mapToken = "<%= process.env.MAP_TOKEN %>";
-  mapboxgl.accessToken = mapToken;
-  console.log(mapToken);
-    const map = new mapboxgl.Map({
-        container: 'map', // container ID
-        style: "mapbox://styles/mapbox/streets-v12",
-        center: [77.2090, 28.6139], // starting position [lng, lat]
-        zoom: 9 // starting zoom
-    });
-</script>
-
 
